@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,300&family=Raleway:ital,wght@0,200;0,700;0,900;1,400;1,500&family=Roboto:ital,wght@0,100;0,400;1,400;1,500&family=Young+Serif&display=swap');
+
+*{
+    font-family: 'poppins' sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color: blueviolet;
+}
+
+#container{
+    display: flex;
+    align-items: center;
+    gap: 3.5rem;
+}
+
+#img img{
+    width: 30rem;
+}
+
+#calculator {
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+    padding: 2rem;
+    color: black;
+    background-color: crimson;
+    border-radius: 7px;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+#title {
+    font-size: 2.27rem;
+    position: relative;
+}
+
+#title ::after {
+position: absolute;
+content: '';
+background-color: blanchedalmond;
+width: 9rem;
+height: 4px;
+bottom: 0;
+left: 0;
+border-radius: 4px;
+}
+
+.input-box label {
+    font-size: 2.1rem;
+    color:darkcyan;
+     font-weight: 400;
+}
+
+.input-field {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color:orchid;
+    padding: 0.2rem;
+    border-radius: 4px;
+    margin-top: 3px;
+}
+
+.input-field span,
+.input-field  i {
+    color: #000;
+    font-size: 2rem;
+    padding: 0.7rem 1rem;
+}  
+
+.input-field input {
+    background-color: aliceblue;
+    border: none;
+    width: 100%;
+    font-size: 1.2rem;
+    color: black;
+    padding: 0.4rem;
+} 
+
+.input-field input::-webkit-outer-spin-button,
+.input-field input::-webkit-inner-spin-button {
+    appearance: none;
+}
+
+.input-field input:focus {
+    outline: none;
+}
+
+#calculate{
+    border: none;
+    font-size: 1.23rem;
+    font-weight: bold;
+    background-color: blueviolet;
+    color:aliceblue;
+    padding: 0.5rem 0;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+#result {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    border-top: 2px solid blueviolet;
+    padding: 0.65rem 0;
+}
+
+#bmi {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 2.20rem;
+}
+
+#bmi span:last-child {
+    font-size: 0.680rem;
+    color:aliceblue;
+}
+
+#description{
+    width: 17.5rem;
+}
+
+#more_info {
+text-align: center;
+border-top: 2px solid blueviolet;
+padding-top: 1.3rem;
+}
+
+#more_info a {
+    color:antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.8rem;
+    font-size: 0.675rem;
+}
+
+#more_info a:hover{
+    color: black;
+}
+
